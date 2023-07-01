@@ -1,0 +1,46 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  form {
+    max-width: 900px;
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header {
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 5px;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  
+  
