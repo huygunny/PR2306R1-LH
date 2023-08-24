@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <title>Snake</title>
+        <link rel="stylesheet" href="snake.css">
+        <script src="snake.js"></script>
+    </head>
+
+    <body>
+        <audio id="moveSound" src="moveSound.mp3"></audio>
+        <audio id="eatSound" src="eatSound.mp3"></audio>
+        <audio id="gameOverSound" src="gameOverSound.mp3"></audio>
+        <h1>Snake</h1>
+        <div id="instructions">
+            <h2>Instructions</h2>
+            <p>Use the arrow keys to control the snake and eat the food. Avoid hitting the walls or yourself!</p>
+        </div>
+        <canvas id="board" width="500" height="500"></canvas>
+        <div>Score: <span id="score">0</span></div>
+        <div>High Score: <span id="highScore">0</span></div>
+    </body>
+</html>
